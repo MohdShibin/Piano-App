@@ -1,6 +1,14 @@
-# pocket_piano
+# Piano App
 
-A new Flutter project.
+A simple piano app using flutter.
+
+Please leave a star:star: . Thats how I know your appreciate. Thanks you.:heart:
+
+## ScreenShots
+
+<p float="left" >
+<img src="https://github.com/MohdShibin/Piano-App/blob/master/assets/screenshot/Screenshot.png" width="480" height="270">
+</p>
 
 ## Getting Started
 
