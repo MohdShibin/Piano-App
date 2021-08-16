@@ -50,16 +50,36 @@ class Home extends StatelessWidget {
               children: [
                 Row(
                   children: [
-                    PianoButton(),
-                    PianoButton(),
-                    PianoButton(),
-                    PianoButton(),
-                    PianoButton(),
-                    PianoButton(),
-                    PianoButton(),
-                    PianoButton(),
-                    PianoButton(),
-                    PianoButton(),
+                    PianoButton(
+                      keyAlphabet: 'C',
+                    ),
+                    PianoButton(
+                      keyAlphabet: 'D',
+                    ),
+                    PianoButton(
+                      keyAlphabet: 'E',
+                    ),
+                    PianoButton(
+                      keyAlphabet: 'F',
+                    ),
+                    PianoButton(
+                      keyAlphabet: 'G',
+                    ),
+                    PianoButton(
+                      keyAlphabet: 'A',
+                    ),
+                    PianoButton(
+                      keyAlphabet: 'B',
+                    ),
+                    PianoButton(
+                      keyAlphabet: 'C',
+                    ),
+                    PianoButton(
+                      keyAlphabet: 'D',
+                    ),
+                    PianoButton(
+                      keyAlphabet: 'E',
+                    ),
                   ],
                 ),
                 Row(
@@ -69,30 +89,37 @@ class Home extends StatelessWidget {
                       width: screenWidth / 26,
                     ),
                     PianoButton(
+                      keyAlphabet: 'A',
                       isWhiteKey: false,
                     ),
                     PianoButton(
-                      isWhiteKey: false,
-                    ),
-                    SizedBox(
-                      width: screenWidth / 13,
-                    ),
-                    PianoButton(
-                      isWhiteKey: false,
-                    ),
-                    PianoButton(
-                      isWhiteKey: false,
-                    ),
-                    PianoButton(
+                      keyAlphabet: 'B',
                       isWhiteKey: false,
                     ),
                     SizedBox(
                       width: screenWidth / 13,
                     ),
                     PianoButton(
+                      keyAlphabet: 'C',
                       isWhiteKey: false,
                     ),
                     PianoButton(
+                      keyAlphabet: 'F',
+                      isWhiteKey: false,
+                    ),
+                    PianoButton(
+                      keyAlphabet: 'D',
+                      isWhiteKey: false,
+                    ),
+                    SizedBox(
+                      width: screenWidth / 13,
+                    ),
+                    PianoButton(
+                      keyAlphabet: 'E',
+                      isWhiteKey: false,
+                    ),
+                    PianoButton(
+                      keyAlphabet: 'F',
                       isWhiteKey: false,
                     ),
                     SizedBox(
